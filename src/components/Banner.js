@@ -57,7 +57,16 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Grahi Bhatt`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer intern", "Software support intern",]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>I’m a driven Computer Systems Technology student at Mohawk College (80.1 GPA) who turns complex problems into polished, user‑focused software. With hands‑on experience across the full stack and mobile worlds—from crafting a React Native pantry‑management app and an ASP .NET Core appointment system to automating web tests in Python and Selenium—I leverage JavaScript, Node.js, Express, SQLite, SQL Server, C#, and more to build robust, scalable solutions. I thrive on collaboration, continuous learning, and delivering seamless experiences that blend clean design with rock‑solid functionality. Check out my projects below to see how I bring ideas to life with code.
+
+
+
+
+
+
+
+
+</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>

@@ -11,8 +11,8 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Chef's Pantry",
+      description: "A React Native app that tracks your pantry inventory with color‑coded expiry alerts and, with a single tap, suggests recipes based on what you have—powered by a Node.js/SQLite backend and the Spoonacular API.",
       imgUrl: projImg1,
     },
     {
