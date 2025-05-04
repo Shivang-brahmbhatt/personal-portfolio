@@ -3,9 +3,9 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/th.png";
 import projImg2 from "../assets/img/memoryGame.png";
 import projImg3 from "../assets/img/Tic.png";
-import projImg4 from "../assets/img/Medibook.png";
-import projImg5 from "../assets/img/Tic.png";
-import projImg6 from "../assets/img/Tic.png";
+import projImg4 from "../assets/img/northwind (2).png";
+import projImg5 from "../assets/img/infinite.png";
+import projImg6 from "../assets/img/car.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -29,18 +29,18 @@ export const Projects = () => {
       imgUrl: projImg3,
     },
     {
-      title: "MediBook - Online Doctor Appointment Booking System",
-      description: "MediBook is a full-stack online doctor appointment booking system built with ASP.NET Core MVC, SQL Server, Entity Framework, and Bootstrap. It features secure user authentication with role-based access for patients and doctors, responsive Razor views for seamless scheduling on any device, and an intuitive calendar interface for quick appointment management.",
+      title: "Northwind Traders Management System",
+      description: "A CRUD web application built with ASP.NET Core Razor Pages, SQL Server, Entity Framework, and Bootstrap that lets you manage employees and orders—complete with photo uploads and dynamic filters for quick, efficient data handling.",
       imgUrl: projImg4,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Infinite scroll Application.",
+      description: "Developed an Infinite Scroll Quotes Application using HTML, CSS, and JavaScript, featuring a dynamic UI for real-time content loading and seamless pagination, while integrating user authentication and favorite functionality with PHP and MySQL for a personalized user experience.",
       imgUrl: projImg5,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Car Inventory Management.",
+      description: "DA cross‑platform React Native app paired with an Express/SQLite REST API for managing a car inventory (ID, Make, Model, Year, Mileage). Enables full CRUD operations—view, add, update, delete, and bulk replace—through intuitive mobile and desktop interfaces, ensuring real‑time sync and efficient data handling.",
       imgUrl: projImg6,
     },
   ];
