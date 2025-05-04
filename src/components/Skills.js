@@ -40,19 +40,27 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={meter1} alt="Image" />
                                 <h5>Programming & Development</h5>
-                                <h3>Python, Java, C#, PHP, Javascript</h3>
+                                <h6>Python, Java, C#, PHP, Javascript, React JS</h6>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <h5>Web Development</h5>
+                                <h6>HTML, CSS, JavaScript, B</h6>
+                              <h6>Learning Responsive & Mobile-First Design
+                              and React</h6>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <h5>Software Testing & Quality Assurance</h5>
+                                <h6>Hands-on with Selenium, Katalon, Black-Box
+                                and White-Box Testing. Debugging, Unit Testing & Performance
+                                Optimization</h6>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5>Networking and Security</h5>
+                                <h6>Network Administration, VPN, Firewall
+                                Configuration, Endpoint Security</h6>
                             </div>
                         </Carousel>
                     </div>
