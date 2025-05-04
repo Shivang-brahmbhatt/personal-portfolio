@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/th.png";
-import projImg2 from "../assets/img/project-img2.png";
+import projImg2 from "../assets/img/Tic.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -16,8 +16,8 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Memory Game",
+      description: "Leveraged Selenium and Python to design and execute both manual and automated tests for a web‑based task manager, logging issues in Jira and working closely on resolutions. Validated data consistency with SQL and produced concise test reports to surface trends and drive quality improvements..",
       imgUrl: projImg2,
     },
     {
